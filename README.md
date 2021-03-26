@@ -13,5 +13,43 @@ No framework/library were used to build this landing page
 
 ## Design
 
-![alt Home Header](https://drive.google.com/file/d/16zZfTDA9NDrbBT_6zbbZZrEUmDOwtqjQ/view)
+Header
 
+![alt Header](https://github.com/khan-asfi-reza/Tech-Mountain/blob/master/Design/image.PNG?raw=true)
+
+About
+
+![alt About](https://github.com/khan-asfi-reza/Tech-Mountain/blob/master/Design/Capture2.PNG?raw=true)
+
+Motto
+
+![alt Motto](https://github.com/khan-asfi-reza/Tech-Mountain/blob/master/Design/Capture3.PNG?raw=true)
+
+Works
+
+![alt Works](https://github.com/khan-asfi-reza/Tech-Mountain/blob/master/Design/Capture4.PNG?raw=true)
+
+Projects
+
+![alt Projects](https://github.com/khan-asfi-reza/Tech-Mountain/blob/master/Design/Capture5.PNG?raw=true)
+
+Contact
+
+![alt Contact](https://github.com/khan-asfi-reza/Tech-Mountain/blob/master/Design/Capture6.PNG?raw=true)
+
+Blog
+
+![alt Blog](https://github.com/khan-asfi-reza/Tech-Mountain/blob/master/Design/Capture7.PNG?raw=true)
+
+Hire Us Pop Up
+
+![alt Hire Us Pop Up](https://github.com/khan-asfi-reza/Tech-Mountain/blob/master/Design/hireus.PNG?raw=true)
+
+Projects Pop Up
+
+![alt Projects Pop Up](https://github.com/khan-asfi-reza/Tech-Mountain/blob/master/Design/projects.PNG?raw=true)
+
+
+
+All rights reserved to Khan Asfi Reza.
+Designed and created by Khan Asfi Reza
