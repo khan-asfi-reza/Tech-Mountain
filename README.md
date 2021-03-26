@@ -15,7 +15,7 @@ No framework/library were used to build this landing page
 
 Header
 
-![alt Header](https://github.com/khan-asfi-reza/Tech-Mountain/blob/master/Design/image.PNG?raw=true)
+![alt Header](https://github.com/khan-asfi-reza/Tech-Mountain/blob/master/Design/home.PNG?raw=true)
 
 About
 
@@ -43,7 +43,7 @@ Blog
 
 Hire Us Pop Up
 
-![alt Hire Us Pop Up](https://github.com/khan-asfi-reza/Tech-Mountain/blob/master/Design/hireus.PNG?raw=true)
+![alt Hire Us Pop Up](https://github.com/khan-asfi-reza/Tech-Mountain/blob/master/Design/hiresus.PNG?raw=true)
 
 Projects Pop Up
 
