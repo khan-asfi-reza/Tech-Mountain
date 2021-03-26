@@ -600,10 +600,10 @@ body::-webkit-scrollbar-thumb:hover {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 15px 10px;
-    cursor: pointer;
     transition: transform 0.5s ease-in;
     -webkit-transition: trasnfrom 0.5s ease-in;
     backface-visibility: hidden;
+
 }
 
 .layer__project .container .grid__row .col:hover{
@@ -759,22 +759,42 @@ body::-webkit-scrollbar-thumb:hover {
     color: #f5e128 !important;
 }
 
+.navbar__white{
+    background: #f5f5f5;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.navbar__logo__box .logo{
+    transition: background-color 0.5s ease-in;
+}
+
+.navbar__white .navbar__logo__box .logo{
+    fill: var(--theme-color);
+}
+
+.navbar__mobile__expand .expand__button{
+    transition: background-color 0.5s ease-in;
+}
+
+.navbar__white .navbar__mobile__expand .expand__button{
+    background-color: var(--theme-color);
+}
+
+.navbar__white .navbar__mobile__expand .expand__button span{
+    background-color: white;
+}
+
 @media screen and (min-width: 626px){
-    .navbar__white{
-        background: #e8e8e8;
-        transition: background-color 0.5s ease-in-out;
-    }
+
     .navbar__white .navbar__nav .navbar__nav__ul .navbar__nav__ul__li .navbar__nav__ul__li__a{
         color: var(--theme-color);
     }
 
-    .navbar__white .navbar__logo__box .logo{
-        fill: var(--theme-color);
-    }
     .navbar__white .navbar__nav .navbar__nav__ul .navbar__nav__ul__li .nav__active{
         color: #023b4c !important;
         font-weight: 600;
     }
+
 
 }
 
@@ -1073,10 +1093,6 @@ header .header__inner__section{
      justify-content: flex-end;
 }
 
-.projects .row__flex .image__box .img__mt__10{
-    margin-top: 5rem;
-}
-
 .projects__animated .row__flex .text__box{
     animation: fade-left 1s ease-in-out;
 }
@@ -1087,7 +1103,11 @@ header .header__inner__section{
 
 .projects__animated .row__flex .image__box img{
     animation: fly 4s ease-in-out infinite;
+    margin: auto;
+}
 
+.projects .row__flex .image__box .img__mt__10{
+    margin-top: 5rem;
 }
 
 .projects .row__flex .text__box .btn{
@@ -1531,8 +1551,11 @@ header .header__inner__section{
         grid-template-columns: 90%;
         justify-content: center;
     }
+    .projects{
+        margin-top: 3rem;
+    }
 
-    .projects .row__flex .image__box img{
+    .projects .row__flex .image__box .img__mt__10{
         margin-top: 2rem;
     }
 
