@@ -600,14 +600,14 @@ body::-webkit-scrollbar-thumb:hover {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 15px 10px;
-    transition: transform 0.5s ease-in;
-    -webkit-transition: trasnfrom 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s;
     backface-visibility: hidden;
 
 }
 
 .layer__project .container .grid__row .col:hover{
-    transform: scale(1.05);
+    transform: translateY(-10px);
     z-index: 1000001;
 }
 
@@ -1059,14 +1059,22 @@ header .header__inner__section{
     padding: 15px 10px;
     text-align: center;
     cursor: pointer;
-    transition: transform 0.5s ease-in;
-    -webkit-transition: trasnfrom 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
 }
 
 .glass:hover, .glass:active{
-    transform: scale(1.1);
+    transform: translateY(-20px);
 }
 
+@keyframes up {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
 
 .glass .logo__container{
     height: 5.5rem;
